@@ -1,0 +1,9 @@
+# See https://github.com/github/linguist
+*.jpg binary
+
+*.json linguist-detectable=false
+*.ts linguist-detectable
+vendor/* linguist-vendored
+*.sh text eol=lf
+
+docs/** linguist-vendored
